@@ -1,0 +1,63 @@
+.main {
+    min-height: 500px;
+    background: url("../img/bg_1.jpg") center (center/cover) no-repeat;
+    padding-top: 30px;
+    &__header {
+        margin: 0;
+
+        font-style: italic;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 104px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    &__logo {
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+
+        color: #FFFAFA;
+    }
+    &__number {
+        display: block;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 62px;
+        text-align: center;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-top: 40px;
+
+        color: #FFFFFF;
+    }
+    &__button {
+        display: block;
+        width: 350px;
+        height: 90px;
+        background: #A2EEFF;
+        border-radius: 8px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 10px;
+
+        font-style: italic;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 78px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: 0.7s all;
+
+        &:hover {
+            box-shadow: 1px 1px 20px white;
+        }
+    }
+}
