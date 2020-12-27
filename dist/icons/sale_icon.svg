@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="87px" viewBox="0 0 117 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sale icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="УТП" transform="translate(-809.000000, 0.000000)">
+            <g id="Sale-icon" transform="translate(867.500000, 43.500000) scale(1, -1) rotate(29.000000) translate(-867.500000, -43.500000) translate(812.000000, 25.000000)">
+                <path d="M67,3.01952241e-10 C72.4292399,3.01952241e-10 76.8479317,4.32667079 76.9961582,9.72009516 L77,10 L77,11 C77,15.9159759 73.4527217,20.0034405 68.7781835,20.8423753 C67.5742179,23.2780301 65.4303341,25.3133567 62.7196237,26.6393928 L69.8923451,33.5643784 C63.4640765,33.0922575 57.2046584,31.1648076 51.1140907,27.7820284 C46.9110222,26.7202769 43.5180117,24.1210675 41.8928849,20.7761552 C37.472275,19.829647 34.1357338,15.9593167 34.0040404,11.2870416 L34,11 L34,10 C34,4.57076009 38.3266708,0.152068282 43.7200952,0.00384179783 L44,3.01952241e-10 L67,3.01952241e-10 Z" id="Combined-Shape" fill="#FF0000"></path>
+                <circle id="Oval" stroke="#575757" fill="#FFFFFF" cx="65.982515" cy="31.4422309" r="4.5"></circle>
+                <text id="SALE" transform="translate(55.500000, 10.500000) scale(1, -1) translate(-55.500000, -10.500000) " font-family="PTSans-Bold, PT Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="35.961" y="16">SALE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

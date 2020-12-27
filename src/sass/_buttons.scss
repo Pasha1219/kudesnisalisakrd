@@ -1,0 +1,25 @@
+.button {
+    &_cons {
+        width: 300px;
+    }
+    display: block;
+    width: 220px;
+    height: 60px;
+    background: #A2EEFF;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.7s all;
+
+    &:hover {
+        box-shadow: 1px 1px 20px white;
+    }
+}

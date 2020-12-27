@@ -1,6 +1,11 @@
 @import 'blocks/menu';
 @import 'blocks/main';
 @import 'blocks/catalog';
+@import 'blocks/present';
+@import '_buttons.scss';
+@import 'blocks/consultation';
+@import '_titles.scss';
+@import 'blocks/forms';
 
 * {
     font-family: 'PT Sans', sans-serif;
@@ -9,6 +14,6 @@ body {
     margin: 0;
 }
 .container {
-    max-width: 1140px;
+    max-width: 950px;
     margin: 0 auto;
 }

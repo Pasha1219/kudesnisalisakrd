@@ -1,0 +1,30 @@
+.present {
+    min-height: 150px;
+    padding-bottom: 20px;
+    &__header {
+        position: relative;
+    }
+    &__icon {
+        position: absolute;
+        left: 356px;
+        top: -14px;
+
+    }
+    &__sale {
+        width: 111px;
+        height: 38.44px;
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        color: #4B4949;
+        span {
+            font-size: 24px;
+            color: #FF0000;
+        }
+        &_bold {
+            font-weight: bold;
+        }
+    }
+}

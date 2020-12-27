@@ -1,14 +1,14 @@
 .main {
-    min-height: 500px;
+    min-height: 400px;
     background: url("../img/bg_1.jpg") center (center/cover) no-repeat;
     padding-top: 30px;
+    padding-bottom: 30px;
     &__header {
         margin: 0;
 
         font-style: italic;
         font-weight: bold;
-        font-size: 80px;
-        line-height: 104px;
+        font-size: 60px;
         text-align: center;
 
         color: #FFFFFF;
@@ -17,7 +17,7 @@
         font-family: 'PT Serif', serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 100px;
+        font-size: 70px;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 0;
@@ -28,19 +28,19 @@
         display: block;
         font-style: italic;
         font-weight: bold;
-        font-size: 36px;
+        font-size: 28px;
         line-height: 62px;
         text-align: center;
         margin: 0 auto;
         text-decoration: none;
-        margin-top: 40px;
+        margin-top: 50px;
 
         color: #FFFFFF;
     }
     &__button {
         display: block;
-        width: 350px;
-        height: 90px;
+        width: 220px;
+        height: 60px;
         background: #A2EEFF;
         border-radius: 8px;
         border: none;
@@ -49,8 +49,7 @@
 
         font-style: italic;
         font-weight: bold;
-        font-size: 40px;
-        line-height: 78px;
+        font-size: 26px;
         text-align: center;
         color: #FFFFFF;
         cursor: pointer;
