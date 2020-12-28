@@ -1,6 +1,6 @@
 .main {
     min-height: 400px;
-    background: url("../img/bg_1.jpg") center (center/cover) no-repeat;
+    background: url("../img/bg_1.svg") center (center/cover) no-repeat;
     padding-top: 30px;
     padding-bottom: 30px;
     &__header {
@@ -13,17 +13,7 @@
 
         color: #FFFFFF;
     }
-    &__logo {
-        font-family: 'PT Serif', serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 70px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 0;
-
-        color: #FFFAFA;
-    }
+   
     &__number {
         display: block;
         font-style: italic;
@@ -59,4 +49,16 @@
             box-shadow: 1px 1px 20px white;
         }
     }
+}
+.logo {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    color: #FFFAFA;
+    
 }

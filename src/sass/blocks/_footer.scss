@@ -1,0 +1,33 @@
+footer {
+    min-height: 120px;
+    background: #A2EEFF;
+}
+.footer {
+    &__content {
+        display: flex;
+        align-items: center;
+        min-height: 120px;
+        justify-content: space-between;
+    }
+    &__logo {
+        margin-top: 0;
+        font-size: 30px;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+    }
+    &__number {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    &__icon {
+        width: 30px;
+    }
+}

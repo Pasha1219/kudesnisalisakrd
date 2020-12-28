@@ -1,0 +1,25 @@
+.me {
+    padding-bottom: 20px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: center;
+
+        img {
+            height: 300px;
+        }
+    }
+    &__descr {
+        margin-left: 20px;
+        width: 300px;
+    }
+    &__header {
+        font-size: 30px;
+        color: #4B4949;
+    }
+    &__subheader {
+        font-size: 20px;
+        color: #4B4949;
+    }
+}

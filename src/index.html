@@ -63,9 +63,9 @@
     <section class="main">
         <div class="container">
             <h1 class="main__header">Букеты на заказ в Краснодаре</h1>
-            <h2 class="main__logo">kudesnitsalisakrd</h2>
+            <h2 class="logo main__logo">kudesnisalisakrd</h2>
             <a href="tel:89384982034" class="main__number">8 (938) 498-20-34</a>
-            <button class="button main__button">Заказать звонок</button>
+            <button data-modal="consultation" class="button main__button">Заказать звонок</button>
         </div>
     </section>
     <section class="catalog">
@@ -112,7 +112,7 @@
             <div class="order__items">
                 <div class="order__item">
                     <div class="order__icon">
-                        <img src="" alt="">
+                        <img src="icons/number1_icon.png" alt="1">
                     </div>
                     <div class="order__descr">
                         Напишите. Мне в WhatsApp. Закажите обратный звонок или позвоните сами.
@@ -120,7 +120,7 @@
                 </div>
                 <div class="order__item">
                     <div class="order__icon">
-                        <img src="" alt="">
+                        <img src="icons/number2_icon.png" alt="2">
                     </div>
                     <div class="order__descr">
                         Расскажите. О бюджете, цветовой гамме и (не)любимых цветах или фруктах.
@@ -128,7 +128,7 @@
                 </div>
                 <div class="order__item">
                     <div class="order__icon">
-                        <img src="" alt="">
+                        <img src="icons/number3_icon.png" alt="3">
                     </div>
                     <div class="order__descr">
                         Отправьте фото букетов, которые вам нравятся, или позвольте решать мне, если выбор сделать трудно.
@@ -136,7 +136,7 @@
                 </div>
                 <div class="order__item">
                     <div class="order__icon">
-                        <img src="" alt="">
+                        <img src="icons/number4_icon.png" alt="4">
                     </div>
                     <div class="order__descr">
                         Сдайте. Явки, пароли и номер телефона адресата. Я свяжусь с получателем и уточню удобное место и время для доставки. А ещё подпишу открытку с тёплыми пожеланиями.
@@ -144,7 +144,7 @@
                 </div>
                 <div class="order__item">
                     <div class="order__icon">
-                        <img src="" alt="">
+                        <img src="icons/number5_icon.png" alt="5">
                     </div>
                     <div class="order__descr">
                         Оплатите. 100% стоимости перед доставкой, любуйтесь на фото готового букета, которое я непременно вам отправлю, и предвкушайте сюрприз для своего дорогого человека.
@@ -153,5 +153,56 @@
             </div>
         </div>
     </section>
+    <section class="me">
+        <div class="container">
+            <h2 class="title">Про меня</h2>
+            <div class="me__wrapper">
+                <img src="img/me_photo.png" alt="Фото" class="me__img">
+                <div class="me__descr">
+                    <div class="me__header">Меня зовут Олеся</div>
+                    <div class="me__subheader">«Цветы — самое лучшее из всего, что Господь создал, но забыл наделить душой». Так считал Генри Уорд Бичер. В своей работе я стараюсь индивидуально подойти к каждому заказу и наделить свои букеты той самой недостающей душой.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <div class="logo footer__logo">kudesnisalisakrd</div>
+                <div class="footer__wrapper">
+                    <a href="tel:89384982034" class="footer__number">8 (938) 498-20-34</a>
+                    <a  title="Whatsapp" href="whatsapp://send?phone=89384982034"><img class="footer__icon" src="icons/whatsapp.svg" alt="Написать в Whatsapp" /></a>
+                    <a title="Telegram" href="https://telegram.me/логинкомпании" target="_blank"><img class="footer__icon" src="icons/telegram.svg" alt= "Написать в Telegram" /></a>
+                    <a title="Instagram" href="https://www.instagram.com/kudesnisa_lesia_krd/?igshid=gieby6vk41fn" target="_blank"><img class="footer__icon" src="icons/instagram.svg" alt= "Перейти в инстаграм" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваш телефон">
+                <input name="email" placeholder="Ваш E-mail" type="email">
+
+                <button class="button button_submit">Заказать звонок</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами 
+                в ближайшее время!</div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>  
 </body>
 </html>

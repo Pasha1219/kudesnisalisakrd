@@ -1,0 +1,27 @@
+.order {
+    &__icon {
+        img {
+            height: 150px;
+        }
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 5px 20px 5px;
+        margin-top: 40px;
+    }
+    &__item {
+        text-align: center;
+        width: 300px;
+        margin: 0 5px;
+    }
+    &__descr {
+        font-size: 20px;
+        text-align: center;
+
+        color: #4B4949;
+
+    }
+}
