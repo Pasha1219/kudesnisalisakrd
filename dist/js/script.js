@@ -1,6 +1,5 @@
 $(document).ready(function(){
     
-
     // Modal 
 
     $('.modal__close').on('click', function() {
@@ -41,5 +40,13 @@ $(document).ready(function(){
 
     $('input[name=phone]').mask("+7(999) 999-9999");
     
+
+    // Smooth scroll
+
+        $("a[href^='#']").click(function(){
+                const _href = $(this).attr("href");
+                $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+                return false;
+        });
 
   });

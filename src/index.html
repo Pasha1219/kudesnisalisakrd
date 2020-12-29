@@ -49,18 +49,18 @@
         <nav>
             <div class="container">
                 <ul class="menu">
-                    <li class="menu__item"><a class="menu__link" href="">Главная</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Примеры</a></li>
-                    <li class="menu__item"><a class="menu__link menu_red" href="">Подарок</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Заказать</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Как заказать?</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Про меня</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Соцсети</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#main">Главная</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#catalog">Примеры</a></li>
+                    <li class="menu__item"><a class="menu__link menu_red" href="#present">Подарок</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#call">Заказать</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#order">Как заказать?</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#me">Про меня</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#footer">Соцсети</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <section class="main">
+    <section class="main" id="main">
         <div class="container">
             <h1 class="main__header">Букеты на заказ в Краснодаре</h1>
             <h2 class="logo main__logo">kudesnisalisakrd</h2>
@@ -68,7 +68,7 @@
             <button data-modal="consultation" class="button main__button">Заказать звонок</button>
         </div>
     </section>
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="container">
             <h2 class="title">Примеры работ</h2>
             <ul class="catalog__tabs">
@@ -78,7 +78,7 @@
             </ul>
         </div>
     </section>
-    <section class="present">
+    <section class="present" id="present">
         <div class="container">
             <div class="present__header">
                 <h2 class="title">Подарок</h2>
@@ -89,7 +89,7 @@
                 для того, чтобы воспользоваться промокодом, просто скажите мне его в переписке или по телефону</div>
         </div>
     </section>
-    <section class="consultation">
+    <section class="consultation" id="call">
         <div class="container">
             <h2 class="title title_left">
                 Заказать обратный звонок 
@@ -106,7 +106,7 @@
             </form>
         </div>
     </section>
-    <section class="order">
+    <section class="order" id="order">
         <div class="container">
             <h2 class="title">Как заказать букет мечты за 5 шагов?</h2>
             <div class="order__items">
@@ -153,7 +153,7 @@
             </div>
         </div>
     </section>
-    <section class="me">
+    <section class="me" id="me">
         <div class="container">
             <h2 class="title">Про меня</h2>
             <div class="me__wrapper">
@@ -165,7 +165,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="footer__content">
                 <div class="logo footer__logo">kudesnisalisakrd</div>
@@ -201,6 +201,8 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>  
